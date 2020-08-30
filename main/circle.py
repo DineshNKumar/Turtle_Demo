@@ -15,6 +15,7 @@ if __name__ == '__main__':
     width = 1
     c = turtle.Turtle()
     c.pencolor('blue')
+    c.speed(10)
     c.width(2)
     c.goto(0, 200)
     rect('orange')
@@ -37,7 +38,7 @@ if __name__ == '__main__':
     c.right(90)
     c.forward(200)
     c.left(90)
-    c.back(20)
+    c.back(25)
     c.fillcolor('brown')
     c.begin_fill()
     for i in range(2):
@@ -53,4 +54,6 @@ if __name__ == '__main__':
         c.left(90)
         width = 2
     c.end_fill()
-    turtle.done()
+
+
+turtle.done()
